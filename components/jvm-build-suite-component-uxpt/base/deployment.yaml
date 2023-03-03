@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-uxpt
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:4820561e2a9f4426a5e0eede33e9a39b
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:4c40d254abe328475a00999f80dfdd5e12ac3a4fba6e50fac9837f66bf864668
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
